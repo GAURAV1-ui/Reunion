@@ -1,14 +1,4 @@
 {
-  "name": "reunion",
-  "version": "1.0.0",
-  "description": "Reunion api",
-  "main": "index.js",
-  "scripts": {
-    "start": "nodemon src/index.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.0",
     "cors": "^2.8.5",
@@ -17,5 +7,16 @@
     "jsonwebtoken": "^9.0.1",
     "mongoose": "^7.4.3",
     "nodemon": "^3.0.1"
-  }
+  },
+  "name": "reunion",
+  "version": "1.0.0",
+  "description": "Reunion api",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
